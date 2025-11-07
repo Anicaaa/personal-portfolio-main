@@ -7,38 +7,6 @@ section {
     background-color: white;
 }
 
-.navbar {
-    display: flex;
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
-    transition: background-color 0.4s;
-}
-
-.navbar img {
-    padding-left: 100px;
-}
-
-.navbar ul {
-    display: flex;
-    list-style-type: none;
-    padding-right: 100px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    margin: 0 20px;
-    color: black;
-    font-size: 25px;
-}
-
-.navbar ul li a:hover {
-    opacity: 0.5;
-}
-
 .active {
     background-color: #1c1d25;
 }
@@ -101,7 +69,7 @@ p {
 }
 
 .socials {
-    padding-bottom: 200px;
+    padding-bottom: 220px;
 }
 
 .social {
@@ -113,6 +81,7 @@ p {
     justify-content: center;
     align-items: center;
     padding: 80px;
+    gap: 30px;
 }
 
 .sub-section-alternative {
@@ -124,8 +93,7 @@ p {
 
 .headshot {
     width: 400px;
-    border-radius: 250px;
-    margin-right: 120px;
+    border-radius: 50%;
 }
 
 .headshot-container {
@@ -153,22 +121,10 @@ p {
         align-items: center;
         }
 
-        .headshot {
-            width: 350px;
-            margin-left: 120px;
-        }
-
         .info-text, .info-text2 {
             display: flex;
             justify-content: center;
             text-align: center;
-        }
-
-        .hero-area {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: center;
         }
 
         .hero-text {
@@ -241,10 +197,6 @@ hr {
     opacity: 0.8;
 }
 
-.download-section {
-    margin-top: 20px;
-}
-
 form {
     margin: 0 auto;
     width: 25%;
@@ -275,30 +227,8 @@ form .btn {
     font-size: 20px;
 }
 
-.hamburger {
-    display: none;
-}
-
-.hamburger:focus {
-    outline: 0;
-}
-
 
 @media only screen and (max-width: 1000px) {
-    ul {
-        display: none;
-        margin: 0px;
-    }
-
-    ul.show {
-        display: block;
-    }
-
-    .navbar {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     .active {
             background-color: #1c1d25;
         }
